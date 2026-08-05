@@ -1,0 +1,21 @@
+# virtual environment
+venv/
+
+# real credentials - never commit this, use db_config.example.py as the template
+db_config.py
+
+# generated data (grows every weekly run - keep it local, not in git history)
+snapshots_raw.csv
+reviews_raw.csv
+
+# debug/scratch files
+review_page_debug.txt
+__pycache__/
+*.pyc
+
+# Power BI can be large / contains a data cache - optional to exclude
+# comment the next line out if you DO want the .pbix tracked in git
+*.pbix
+
+# charts regenerate each run
+*.png

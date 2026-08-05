@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+psycopg2-binary
+selenium
+webdriver-manager
+pandas
+numpy
+vaderSentiment
+scipy
+statsmodels
+matplotlib
+plotly
