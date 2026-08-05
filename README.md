@@ -84,18 +84,4 @@ load `vw_snapshot_summary` and `vw_review_summary`. Two pages:
 - **Drill-down**: brand slicer, average sentiment by brand, a table of
   the lowest-sentiment reviews (what people are actually complaining about)
 
-## Interview notes
-- **Why this project?** Built a self-scraped longitudinal dataset instead
-  of a pre-packaged Kaggle CSV, and designed a custom metric (Vulnerability
-  Score) instead of just reporting standard KPIs.
-- **What was hard?** Two real obstacles, both solved and documented in
-  the code: (1) Amazon's robots.txt blocked the originally-planned source,
-  requiring a pivot to Nykaa; (2) Nykaa's bot-detection blocked plain HTTP
-  requests, requiring a switch to Selenium, and building the review-text
-  extraction regex against the real rendered DOM (not a markdown-rendered
-  preview, which included formatting artifacts that don't exist on the
-  live page).
-- **Why equal weighting on the Vulnerability Score?** Simple and
-  interpretable with limited historical data; the plan is to validate
-  weights by regressing the score against actual subsequent rating drops
-  once more weekly snapshots exist.
+
