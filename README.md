@@ -1,4 +1,4 @@
-# Indian D2C Skincare Brand Health Tracker
+# D2C Skincare Brand Health Tracker
 
 An end-to-end data analytics project: a self-scraped, weekly-updated
 dataset tracking price, rating, and review sentiment across Indian D2C
