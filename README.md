@@ -1,4 +1,4 @@
-# D2C Skincare Brand Health Tracker
+# D2C Brand Health Tracker -  Longitudinal Web-Scraped Analytics Pipeline 
 
 An end-to-end data analytics project: a self-scraped, weekly-updated
 dataset tracking price, rating, and review sentiment across Indian D2C
@@ -84,4 +84,11 @@ load `vw_snapshot_summary` and `vw_review_summary`. Two pages:
 - **Drill-down**: brand slicer, average sentiment by brand, a table of
   the lowest-sentiment reviews (what people are actually complaining about)
 
+## Project Status
 
+Active development.
+
+
+## Project Status
+
+Active development.
